@@ -1,0 +1,56 @@
+body {
+    background: purple;
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.white-keys {
+
+}
+
+#first {
+    position: absolute;
+    top: -3px;
+    left: 57px;
+}
+
+#second {
+    position: absolute;
+    top: -3px;
+    left: 357px;
+}
+
+.white-keys kbd {
+    height: 300px;
+    width: 100px;
+    line-height: 510px;
+    margin: -4px;
+    background-color: white;
+    z-index: 1;
+}
+
+.black-keys kbd {
+    height: 200px;
+    width: 75px;
+    line-height: 340px;
+    margin-right: 18px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+
+kbd {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.e {
+    margin-right: 115px !important;
+}
